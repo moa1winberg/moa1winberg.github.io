@@ -1,0 +1,89 @@
+body{
+	background-color: #e5e5e5;
+	font-family: "open sans";
+	margin: 0px;
+	padding: 0px;
+	
+}
+#menu{
+	background-color: white;
+	display: block !important;
+    position: absolute !important;
+    width: 100% !important;
+
+}
+
+#logo{
+	padding: 50px;
+	position: relative;
+	top: 10px;
+	font-size: 50px;
+	font-weight: bold; 
+	color: #ff5a5f;
+	text-decoration: none;
+
+}
+#tmenu{
+	font-size: 15px;
+	font-weight: bold;
+	color: #484848;
+	padding: 30px;
+	text-decoration: none;
+
+}
+#socialmedia {
+	position: relative;
+	top: 12px;
+	left: 300px;
+}
+#ruta1{
+	position: relative;
+	top: -130px;
+	left: 145px;
+	height: 100px;
+	width: 450px;
+	background-color: white; 
+	opacity: 0.8;
+
+}
+#knapp1{
+	position: relative;
+	top: -55px;
+	left: 145px;
+	height: 50px;
+	width: 200px;
+	background-color: #000000;
+	color: white;
+	text-align: center;
+	line-height: 50px; 		
+}
+#bild1{
+	position: relative;
+	top: -55px;
+	left: px;
+	height: 400px;
+	width: 1000px;
+	text-align: left;
+	line-height: 600px; 		
+}
+#bild2{
+	position: relative;
+	top: -455px;
+	left: px;
+	height: 400px;
+	width: 600px;
+	text-align: right;
+	line-height: 600px; 		
+}
+#content {
+	display: block !important;
+    position: relative;
+    width: 1000px;
+    top: 150px;
+	text-decoration: none;
+	
+
+	
+}
+
+
