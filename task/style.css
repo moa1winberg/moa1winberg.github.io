@@ -1,0 +1,95 @@
+html {
+width: 100%;
+height: 100%;
+position: absolute;
+overflow: hidden;
+
+}
+
+body{
+font-family: segoe ui;
+color: #FFFFFF;
+margin: 0%;
+padding: 0%;
+border: 0%;
+outline: 0%;
+background-image: url(bgblue.gif);
+ 
+
+}
+
+#container {
+width: 100%;
+height: 90vh;
+display: flex;
+
+  
+
+}
+
+  .bigtext{
+
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+font-size:  64px;
+width: 700px;
+height: auto;
+text-transform: uppercase;
+font-weight: bold;
+line-height: 50px;
+
+
+
+  }
+
+  #smallText{
+position: absolute;
+text-transform: uppercase;
+font-size:  15px;
+top: 3vh;
+right: 3vh; 
+font-weight: bold;
+
+
+  }
+  #author{
+    text-align: right;
+    font-size: 40px;
+    text-transform: lowercase;
+
+  }
+   #knapp{
+  position: absolute;
+  display: block;
+  bottom: 10vh;
+  left: 10vh; 
+  font-size: 60px;
+  font-weight: bold;
+
+  }
+button {
+	  background-color: rgba(30,30,30,.5);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    order: 2px solid #f7f7f7;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+
+}
+button:hover { 
+    color: #272727;
+    background-color: rgba(222,222,222,.5);
+     
+}
+
